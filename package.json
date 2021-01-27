@@ -1,0 +1,11 @@
+{
+  "name": "nouvelleversion",
+  "version": "1.0.0",
+  "description": "Optimisation site web",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css"
+  },
+  "author": "Jean-Baptiste ALIGNAN",
+  "license": "ISC"
+}
