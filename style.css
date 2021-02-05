@@ -827,7 +827,7 @@ h4 {
     font-weight: 900!important;
 }
 
-/*Ajout de code CSS pour l'audit*/
+/*Ajout de code CSS pour l'audit; index.html*/
 
 h1{width: 14em;
     margin: auto;
@@ -904,6 +904,55 @@ h3 + p{
     margin-bottom: 2em;
     color: black;
     font-size: 1.2em;
+}
+
+/*Ajout de code CSS pour l'audit; contact.html*/
+
+.section-form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 30em;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 3em;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    color: black;
+    font-size: 1.1em;
+    line-height: 2em;
+}
+
+input{
+    height: 2em;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+button[type=submit]{
+    align-self: center;
+    width: 10em;
+    border: 0;
+    color: black!important;
+}
+
+section > div p{
+    font-size: 1em;
+    color: black;
+}
+
+section > div:last-of-type{
+    margin: auto;
+    text-align: center;
 }
 
 @media (min-width: 375px) and (max-width:1080px){

@@ -1,11 +1,23 @@
 <!doctype html>
-<html lang="Default">
+<html lang="fr">
 <head>
-    <meta charset="utf-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
+    <meta charset="UTF-8">
+    <meta name="description" content="Contact - La ChouetteAgence - L'agence de web design pour les entreprises de la région lyonnaise">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <link rel="shortcut icon" type="image/png" href="favicon.jpg">
+	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
+	
+	<!-- Open Graph data -->
+	<meta property="og:title" content="Contact - Chouette Agence"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:url" content="https://jbalignan.github.io/JeanBaptisteAlignan_4_19012020/"/>
+	<meta property="og:image" content=""/>
+	<meta property="og:description" content="Contact - La ChouetteAgence - L'agence de web design pour les entreprises de la région lyonnaise"/>
+	<!-- Twitter Card data -->
+	<meta name="twitter:card" content="chouetteagence">
+	<meta name="twitter:site" content="@publisher_handle">
+	<meta name="twitter:title" content="Contact - Chouette Agence">
+	<meta name="twitter:description" content="Contact - La Chouette Agence - L'agence de web design pour les entreprises de la région lyonnaise">
+	<meta name="twitter:creator" content="Jean-Baptiste ALIGNAN">
     
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -18,7 +30,7 @@
 	<script src="./js/blocs.min.js"></script>
 	<script src="./js/jqBootstrapValidation.js"></script>
 	<script src="./js/formHandler.js"></script>
-    <title>page2</title>
+    <title>Contact - La Chouette Agence</title>
 
     
 <!-- Analytics -->
@@ -35,24 +47,18 @@
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="atlanta web design logo" height="40" /></a>
-				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-				</button>
+				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.jpg" alt="Accueil" height="40" /></a>
 			</div>
-			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-				<ul class="site-navigation nav navbar-nav">
-					<li>
-						<a href="index.html">Accueil</a>
-					</li>
-					<li>
-					</li>
-					<li>
-						<a href="page2.html">page2 &gt;</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
+
+			<nav>
+				<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+					<ul class="site-navigation nav navbar-nav">
+						<li>
+							<a href="index.html">Accueil</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
 	</div>
 </div>
 <!-- bloc-0 END -->
@@ -76,47 +82,50 @@
 <!-- bloc-6 END -->
 
 <!-- bloc-7 -->
-<div class="bloc bgc-white l-bloc" id="bloc-7">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-6">
+<section class="section-form">
+
 				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+
 					<div class="form-group">
-						<label>
-							Nom
-						</label>
-						<input id="name" class="form-control" required />
+
+						<label>Nom</label>
+						<input tpe="text" name="name" id="name" placeholder="John Doe" required />
+
 					</div>
+
 					<div class="form-group">
-						<label>
-							Adresse email
-						</label>
-						<input id="email" class="form-control" type="email" required />
+
+						<label>Adresse email</label>							
+						<input type="email" name="email" id="email" placeholder="exemple@mail.com" required />
+
 					</div>
+
 					<div class="form-group">
-						<label>
-							Comment nous avez-vous connu ?
-						</label>
-						<input class="form-control" type="email" required id="input_504" />
+
+						<label>Comment nous avez-vous connu ?</label>												
+						<input type="text" name="known" id="known" required />
+
 					</div>
+
 					<div class="form-group">
-						<label>
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
-					</div> 
+
+						<label>Brief de votre projet (Ajoutez autant de détails que nécessaire)</label>			<textarea name="message"  id="message" rows="4" cols="50" required></textarea>
+
+					</div>
+
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
 					</button>
+
 				</form>
-			</div>
-			<div class="col-sm-6">
-				<p>
-					contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
-				</p>
-			</div>
-		</div>
-	</div>
-</div>
+
+				<div>
+					<p>contact@lachouetteagence.com</p>
+					<p>2 place Sathonay 69001 Lyon</p>
+					<p>Ouvert de 9h à 18h, du lundi au vendredi</p>
+				</div>
+
+</section>
 <!-- bloc-7 END -->
 
 <!-- ScrollToTop Button -->
