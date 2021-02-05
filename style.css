@@ -457,11 +457,20 @@ nav .caret {
     margin: 0 0 5px 5px;
 }
 
-.btn-d,
+.btn-d{
+    background: rgba(42, 42, 42, 0.5);
+}
 .btn-d:hover,
 .btn-d:focus {
-    color: #FFF;
-    background: rgba(0, 0, 0, .3);
+    background:#FFF;
+}
+
+.fa-chevron-up{
+    color: white;
+}
+
+.btn-d:hover .fa-chevron-up{
+    color:#424242;
 }
 
 button {
@@ -655,7 +664,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -743,7 +752,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .portfolio-thumb {
@@ -815,6 +824,7 @@ h4 {
 .icon-dark-slate-blue {
     color: #364577!important;
     border-color: #364577!important;
+    font-weight: 900!important;
 }
 
 /*Ajout de code CSS pour l'audit*/
@@ -826,6 +836,10 @@ h1{width: 14em;
     background-color: #424242;
     opacity: 0.9;
     border-radius: 20px;
+}
+
+ul li a{
+    font-size: 1.3em;
 }
 
 blockquote{
@@ -841,8 +855,21 @@ blockquote p{
     text-align: center;
 }
 
+figure{
+    padding-top: 1em;
+}
+
 figcaption{
     text-align: center;
+}
+
+.second-section-paragraph{
+    line-height: 1.5;
+}
+
+.third-section-paragraph{
+    font-size: 0.9em;
+    line-height: 2;
 }
 
 .bg-dots-bg {
@@ -857,7 +884,33 @@ figcaption{
     background-image: url("img/image-de-presentation.bmp");
 }
 
+.h2-last-section{
+    padding: 1em 0;
+    width: 20em;
+    background-color: #424242;
+    opacity: 0.9; ;
+}
+
+h3 + p{
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.contact-button{
+    color: black!important;
+}
+
+.color-footer-title{
+    margin-bottom: 2em;
+    color: black;
+    font-size: 1.2em;
+}
+
 @media (min-width: 375px) and (max-width:1080px){
+    h1{
+        width: 10em;
+    }
+
     blockquote{
         margin: 0;
         width: auto;
@@ -869,6 +922,10 @@ figcaption{
 
     .bg-presentation{
         background-image: url("img/image-de-presentation-470x1080.jpg")
+    }
+
+    .h2-last-section{
+        width: 14em;
     }
 
     footer div div div div{
