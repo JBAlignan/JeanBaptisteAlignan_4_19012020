@@ -132,14 +132,15 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color:rgba(255, 255, 255, 1);
 }
+
+
 
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
 .d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
 .d-bloc a:hover .icon-lg,
 .d-bloc a:hover .icon-xl,
 .d-bloc h1 a:hover,
@@ -150,6 +151,10 @@ a:hover {
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
     color: rgba(255, 255, 255, 1);
+}
+
+.d-bloc a:hover .icon-md{
+    color: black;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -755,7 +760,8 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #424242;
+    opacity: 0.9;
     padding: 40px 40px 40px 40px;
 }
 
@@ -809,6 +815,17 @@ h4 {
 .icon-dark-slate-blue {
     color: #364577!important;
     border-color: #364577!important;
+}
+
+/*Ajout de code CSS pour l'audit*/
+
+h1{width: 14em;
+    margin: auto;
+    margin-top: 1em;
+    padding: 1em 0;
+    background-color: #424242;
+    opacity: 0.9;
+    border-radius: 20px;
 }
 
 blockquote{
