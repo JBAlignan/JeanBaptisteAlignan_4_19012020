@@ -841,12 +841,22 @@ figcaption{
 }
 
 @media (min-width: 375px) and (max-width:1080px){
+    blockquote{
+        margin: 0;
+        width: auto;
+}
+
     .bg-banniere{ 
         background-image: url("img/la-chouette-agence-banniere-375x300.jpg");
     }
 
     .bg-presentation{
         background-image: url("img/image-de-presentation-470x1080.jpg")
+    }
+
+    footer div div div div{
+        display: flex;
+        justify-content: space-around;
     }
 }
 
