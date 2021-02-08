@@ -462,15 +462,11 @@ nav .caret {
 }
 .btn-d:hover,
 .btn-d:focus {
-    background:#FFF;
+    background:rgba(42, 42, 42, 1);
 }
 
 .fa-chevron-up{
     color: white;
-}
-
-.btn-d:hover .fa-chevron-up{
-    color:#424242;
 }
 
 button {
@@ -838,6 +834,10 @@ h1{width: 14em;
     border-radius: 20px;
 }
 
+nav ul li{
+    list-style-type: none;
+}
+
 ul li a{
     font-size: 1.3em;
 }
@@ -881,7 +881,7 @@ figcaption{
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 .h2-last-section{
@@ -908,10 +908,33 @@ h3 + p{
 
 /*Ajout de code CSS pour l'audit; contact.html*/
 
+.margin-h1-container{
+    margin: auto;
+    text-align: center;
+}
+
+.h1-container{
+    width: 42em;
+    margin: auto;
+    background-color: #424242;
+}
+
+.h1-contact{
+    color: white!important;
+    background: none;
+    padding-bottom: 0;
+}
+
+.first-p{
+    font-size: 1em;
+    padding-bottom: 2em;
+}
+
 .section-form{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     height: 30em;
+    padding-top: 2em;
 }
 
 form{
@@ -919,6 +942,12 @@ form{
     flex-direction: column;
     justify-content: space-around;
     padding: 0 3em;
+}
+
+legend{
+    color: black;
+    font-family: helvetica;
+    font-size: 1.3em;
 }
 
 form div{
@@ -953,6 +982,10 @@ section > div p{
 section > div:last-of-type{
     margin: auto;
     text-align: center;
+}
+
+footer > div{
+    margin: auto;
 }
 
 @media (min-width: 375px) and (max-width:1080px){
