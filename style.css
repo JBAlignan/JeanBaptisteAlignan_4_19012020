@@ -1003,11 +1003,15 @@ footer > div{
 }
 
     .bg-banniere{ 
-        background-image: url("img/la-chouette-agence-banniere-375x300.jpg");
+        background-image: url("img/la-chouette-agence-banniere-mobile.jpg");
     }
 
     .bg-presentation{
-        background-image: url("img/image-de-presentation-470x1080.jpg")
+        background-image: url("img/image-de-presentation-mobile.jpg")
+    }
+
+    a img{
+        margin: auto;
     }
 
     .h2-last-section{
