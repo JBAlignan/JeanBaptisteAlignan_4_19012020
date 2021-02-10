@@ -9,6 +9,13 @@
   "author": "Jean-Baptiste ALIGNAN",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^4.6.0"
+    "-": "0.0.1",
+    "bootstrap": "^4.6.0",
+    "global": "^4.4.0",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-sass": "^4.1.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
   }
 }
