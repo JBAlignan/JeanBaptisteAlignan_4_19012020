@@ -558,7 +558,8 @@ a[data-lightbox]:hover::before {
     font-weight: 100;
     z-index: 1;
     position: absolute;
-    top: 50%;
+    top: 45%;
+    left: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
 }
@@ -844,7 +845,6 @@ ul li a{
 
 blockquote{
     margin: auto;
-    margin-top: 17em;
     border: 0px;
     width: 31em;
 }
@@ -856,6 +856,7 @@ blockquote p{
 }
 
 figure{
+    margin: auto;
     padding-top: 1em;
 }
 
@@ -905,6 +906,10 @@ h3 + p{
     margin-bottom: 2em;
     color: black;
     font-size: 1.2em;
+}
+
+.social-icon-disposition{
+    width: auto;
 }
 
 /*Ajout de code CSS pour l'audit; contact.html*/
@@ -1010,6 +1015,10 @@ footer > div{
         width: 10em;
     }
 
+    .background-nav-contact{
+        background-color: #FFF;
+    }
+
     blockquote{
         margin: 0;
         width: auto;
@@ -1056,7 +1065,7 @@ footer > div{
         width: 20em;
     }
 
-    section > div:last-of-type{
+    section:last-of-type > div:last-of-type{
         margin: 3em auto 3em auto;
         text-align: center;
     }
@@ -1147,7 +1156,7 @@ footer > div{
     }
     .navbar .nav {
         padding-top: 0;
-        border-top: 1px solid rgba(0, 0, 0, .2);
+        
         float: none!important;
     }
     .navbar.row {
@@ -1162,15 +1171,13 @@ footer > div{
     }
     .nav > li {
         margin-top: 0;
-        border-bottom: 1px solid rgba(0, 0, 0, .1);
-        background: rgba(0, 0, 0, .05);
+        
+        
         text-align: left;
         padding-left: 15px;
         width: 100%;
     }
-    .nav > li:hover {
-        background: rgba(0, 0, 0, .08);
-    }
+
     .dropdown .dropdown a .caret {
         float: none;
         margin: 5px 0 0 10px!important;
