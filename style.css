@@ -1009,11 +1009,11 @@ footer > div{
         width: 10em;
     }
 
-    header a:first-of-type{
+    .first-link-size{
         margin-right: 0!important;
     }
 
-    header ul li a{
+    .second-link-size{
         padding: 0.75em 2em 0.75em 0;
     }
 
