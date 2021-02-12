@@ -90,7 +90,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -875,15 +875,15 @@ figcaption{
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg.webp");
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.jpg");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 .h2-last-section{
@@ -963,12 +963,6 @@ form{
     padding: 0 3em;
 }
 
-{
-    color: black;
-    font-family: helvetica;
-    font-size: 1.3em;
-}
-
 form div{
     display: flex;
     flex-direction: column;
@@ -1025,11 +1019,11 @@ footer > div{
 }
 
     .bg-banniere{ 
-        background-image: url("img/la-chouette-agence-banniere-mobile.jpg");
+        background-image: url("img/la-chouette-agence-banniere-mobile.webp");
     }
 
     .bg-presentation{
-        background-image: url("img/image-de-presentation-mobile.jpg")
+        background-image: url("img/image-de-presentation-mobile.webp")
     }
 
     a img{
