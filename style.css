@@ -1010,12 +1010,13 @@ footer > div{
     }
 
     .first-link-size{
-        margin-right: 0!important;
+        margin: 0!important;
     }
 
     .second-link-size{
-        padding: 0.75em 1.5em 0.75em 0!important;
+        padding: 0.75em 0.5em;
     }
+ 
 
     .background-nav-contact{
         background-color: #FFF;
