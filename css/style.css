@@ -998,6 +998,10 @@ footer > div{
 
     /*Responsive de la page index.html*/
 
+    header a[href="contact.html"]{
+        height: 48px;
+    }
+
     h1{
         width: 10em;
     }
