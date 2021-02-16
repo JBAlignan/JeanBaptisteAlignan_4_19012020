@@ -826,13 +826,18 @@ h4 {
 
 /*Ajout de code CSS pour l'audit; index.html*/
 
-h1{width: 14em;
+h1{
+    width: 14em;
     margin: auto;
     margin-top: 1em;
     padding: 1em 0;
     background-color: #424242;
     opacity: 0.9;
     border-radius: 20px;
+}
+
+.logo{
+    width: 9.5em;
 }
 
 nav ul li{
